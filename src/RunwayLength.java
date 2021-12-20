@@ -13,6 +13,7 @@ public class RunwayLength {
         a_meter_second = userInput.nextDouble();
 
          double length =(v_meter_second * v_meter_second) / (2 * a_meter_second);
+         //this is uploaded on github
 
         System.out.println("The minimum runway length for this airplane is: " + length);
     }
